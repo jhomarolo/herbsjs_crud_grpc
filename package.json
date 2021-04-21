@@ -1,0 +1,34 @@
+{
+  "name": "herbs_customers_grpc",
+  "version": "1.0.0",
+  "description": "HerbsJS CRUD customers over gRPC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "mocha --timeout 999999 --colors --recursive server/**/*.test.js"
+  },
+  "author": "Jhonathan Soares",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.6.1",
+    "body-parser": "^1.19.0",
+    "buchu": "^1.0.11",
+    "express": "^4.17.1",
+    "gotu": "^1.0.15",
+    "grpc": "^1.24.6",
+    "hbs": "^4.1.2",
+    "suma": "^1.0.7",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "minimist": ">=1.2.5",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.2.1"
+  }
+}
