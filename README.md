@@ -1,4 +1,4 @@
-# HerbsJS Tutorial of a CRUD over gRPC and Node
+# Tutorial of a CRUD over gRPC and Node using HerbsJS
 
 This project is separated in two parts:
 - Server: where gRPC serves the remote calls defined in the proto file using clean architecture with [herbsJS](https://herbsjs.org)
